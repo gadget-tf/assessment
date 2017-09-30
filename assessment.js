@@ -85,7 +85,7 @@
         }
 
         // コード番号の合計を回答の数で割った余りを添え字にする
-        const index = sumOfcharCode % userName.length;
+        const index = sumOfcharCode % answers.length;
         let result = answers[index];
         // {userName}をユーザの名前に置き換える
         result = result.replace(/\{userName\}/g, userName);
