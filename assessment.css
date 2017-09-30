@@ -1,0 +1,36 @@
+body {
+    background-color: #04A6EB;
+    color: #FDFFFF;
+    width: 500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.shadow {
+    text-shadow: 5px 2px 2px black;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #337AB7;
+    border-color: #2E6DA4;
+    border-style: solit 1px;
+    border-color: white;
+    border-radius: 10px;
+    color: #FDFFFF;
+}
+button:active {
+    background-color: #163953;
+}
+
+input {
+    height: 20px;
+    border-style: solid 1px;
+    border-color: white;
+    border-radius: 10px;
+}
