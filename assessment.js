@@ -34,7 +34,7 @@
             alert('名前が未入力です。');
             return;
         }
-        console.log(userName);
+        //console.log(userName);
 
         removeAllChildren(resultDivided);
         removeAllChildren(tweetDivided);
